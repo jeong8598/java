@@ -1,0 +1,49 @@
+
+작은수~큰수까지 난수발생
+syso((int)(Math.random()*(큰수-작은수+1)+작은수));
+
+*제어문: 조건문/반복문
+--조건문(if/switch)
+//if문법
+if(조건1){
+		//실행코드
+		[}else if(조건2){
+		//실행코드]
+		...
+		[}else if(조건n){
+		//실행코드]
+		}else 실행코드
+
+//switch문법
+//switch문의 매개변수타입은 숫자(byte,short,int,long),char타입
+//String타입은 자바7부터 사용가능
+switch(조건){
+	case 값1 : 실행코드
+		[break;]
+	case 값2 : 실행코드
+		[break;]
+	case 값n : 실행코드
+		[break;]
+	[default : 실행코드]
+}
+
+--반복문(for,while,do-while)
+//for문법
+for(초기화;조건식;증감식){
+	//실행코드
+	}
+
+//향상된 for문
+for(타입 변수명 : 배열 또는 컬렉션){
+		//반복실행코드
+		}
+
+//while문법
+while(조건){
+	//조건만족시 반복실행코드
+}
+
+-do while문
+do(초기값;	조건;	증감식){
+	//조건만족시 반복실행코드
+	}
